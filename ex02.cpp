@@ -12,12 +12,12 @@ int main() {
 	do {
 		std::cout << "Entre com um numero inteiro positivo: ";
 		std::cin >> n;
+	} while (n < 0);
 
-		while (i <= n) {
-			total += i;
-			i++;
-		}		
-	} while (n < 0);	
+	while (i <= n) {
+		total += i;
+		i++;
+	}
 
 	std::cout << "Valor total da soma dos primeiros n inteiros positivos: " << total << std::endl;
 
