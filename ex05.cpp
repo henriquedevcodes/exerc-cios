@@ -19,7 +19,6 @@ int main() {
 	}	
 
 	std::cout << "Dia: " << dia << " vendeu " << maior << " unidades" << std::endl;
-	std::cin >> maior;
-
+	
 	return 0;
 }
