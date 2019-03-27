@@ -2,7 +2,6 @@ class Coordinate2D {
 	private:
 		int x, y;
 	public:
-		Coordinate2D() = default;
 		Coordinate2D(int, int);
 		int getX();
 		int getY();
@@ -25,7 +24,6 @@ class Coordinate3D : public Coordinate2D {
 	private:
 		int z;
 	public:
-		Coordinate3D() = default;
 		Coordinate3D(int, int, int);
 		int getZ();
 };
