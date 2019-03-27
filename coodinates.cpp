@@ -28,10 +28,10 @@ class Coordinate3D : public Coordinate2D {
 		Coordinate3D() = default;
 		Coordinate3D(int, int, int);
 		int getZ();
-}
+};
 
 Coordinate3D::Coordinate3D(int x, int y, int z)
-	: Coordinate2D(x, y) {
+	: Coordinate2D(x, y){
 	this->z = z;
 }
 
